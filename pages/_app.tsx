@@ -1,6 +1,6 @@
 import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import MyPage from '../contex/walletContext';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+export default function Wallet() {
+  return <MyPage />;
 }
